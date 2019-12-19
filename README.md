@@ -34,11 +34,16 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[osquery](https://www.osquery.io/)**: Open-source tool that utilizes basic SQL commands to leverage a relational data-model to describe a device. Incredibly performant, a single SQL command can query the same information, whether the device is running Linux, Mac, or Windows. Originally developed by Facebook, control has transitioned to the [Linux Foundation](https://www.linuxfoundation.org/press-release/2019/06/the-linux-foundation-announces-intent-to-form-new-foundation-to-support-osquery-community/).
 - **[Sal](https://github.com/salopensource/sal)**: A Django-based reporting app for [munki](https://github.com/munki/munki), integrates with Facter facts on clients.
 
-## Software Management, Deployment, & Updates
+## Software Management, Packaging, Deployment, & Updates
 
+- **[appleloops](https://github.com/carlashley/appleLoops)**: Python script for downloading and deploying essential and optional audio content for GarageBand, Logic Pro X, and MainStage 3.
 - **[Apple Remote Desktop](https://apps.apple.com/us/app/apple-remote-desktop/id409907375?mt=12)**: Paid macOS app for remotely viewing and controlling other Macs. Can also remotely install PKGs and run scripts.
 - **[autopkg](https://github.com/autopkg/autopkg)**: AutoPkg is an automation framework for macOS software packaging and distribution, oriented towards the tasks one would normally perform manually to prepare third-party software for mass deployment to managed clients.
+- **[chrome-enable-autoupdates.py](https://github.com/hjuutilainen/adminscripts/blob/master/chrome-enable-autoupdates.py)**: Python script for enabling automatic Chrome browser updates for all users on a Mac.
+- **[JSSImporter](https://github.com/sheagcraig/JSSImporter)**: A framework for connecting software downloaded via autopkg to a Jamf Pro server. Will import the software to a Jamf distribution point, as well as create an applicable policy and scope for deployment.
 - **[margarita](https://github.com/jessepeterson/margarita)**: Margarita is a web interface to reposado the Apple Software Update replication and catalog management tool. While the reposado command line administration tools work great for folks who are comfortable in that environment something a little more accesible might be desired.
+- **[munki-pkg](https://github.com/munki/munki-pkg)**: Tool for building packages in a consistent, repeatable manner from source files and scripts in a project directory.
+- **[Recipe Robot](https://github.com/homebysix/recipe-robot)**: macOS app for automatically creating recipes for [autopkg](https://github.com/autopkg/autopkg).
 - **[reposado](https://github.com/wdas/reposado)**: Reposado is a set of tools written in Python that replicate the key functionality of Mac OS X Server's Software Update Service, allowing you to host Apple Software Updates on the hardware and OS of your choice.
   - Reposado & margarita in Docker: [sphen/reposado](https://hub.docker.com/r/sphen/reposado)
 - **softwareupdate**: Built-in macOS command-line tool for managing software updates. Utilized by tools like [munki](https://github.com/munki/munki/) and Jamf.
@@ -64,13 +69,17 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[DetectX Swift](https://sqwarq.com/detectx/)**: A lightweight macOS app for completing on-demand search and troubleshooting tool. that can identify malware, adware, keyloggers, potentially unwanted apps and potentially destabilising apps on a Mac. *VERY* inexpensive [management license](https://sites.fastspring.com/sqwarq/product/detectxswiftmanagement), and can be triggered remotely to complete full system scans.
 - **[Docker](https://www.docker.com/)**: Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code ([https://opensource.com/resources/what-docker](https://opensource.com/resources/what-docker)). Great for testing.
   - [podman](https://podman.io/): An alternative to Docker.
+- **[dockutil](https://github.com/kcrawford/dockutil)**: Tool for programmatically configuring Docks. Can be used in conjunction with other tools, like [outset](https://github.com/chilcote/outset).
 - **[Jamf Connect](https://www.jamf.com/products/jamf-connect/)**: Additional paid Jamf product born from purchasing the company behind [NoMAD](https://nomad.menu/products/#nomad) and [NoMAD Login](https://nomad.menu/products/#login). Allows the use of cloud-identity credentials at the macOS loginwindow.
+- **[munki-rebrand](https://github.com/ox-it/munki-rebrand)**: Scripts to rebrand munki's Managed Software Update center.
+- **[mysides](https://github.com/mosen/mysides)**: Command-line tool for programmatically configuring the Finder sidebar.
 - **[NoMAD](https://nomad.menu/products/#nomad)**: Open-source macOS app to help users bound to Active Directory, its main purpose is to help move your Macs off binding to AD while still getting all of the functionality. Keep your users on local accounts and let NoMAD manage their interaction with AD by allowing them to sign in with their AD account to get Kerberos tickets, certificates for 802.1X connections and other functions without having to have a mobile account. 
 - **[NoMAD Login](https://nomad.menu/products/#login)**: Open-source macOS companion app to [NoMAD](https://nomad.menu/products/#nomad) for allowing AD logins at the loginwindow without needing to bind to AD.
 - **[offset](https://github.com/aysiu/offset)**: Similar to [outset](https://github.com/chilcote/outset), but automatically processes packages and scripts at logout.
   - Reportedly does not work with macOS Catalina ...
 - **[Outlook-Exchange-Setup](https://github.com/talkingmoose/Outlook-Exchange-Setup-5)**: Script that provides your volume-licensed Outlook for Mac users with automatic setups of their Exchange accounts. It works especially well if the Mac is bound to Active Directory.
 - **[outset](https://github.com/chilcote/outset)**: Automatically process packages, profiles, and scripts during boot, login, or on demand as the logging-in user or with administrator privileges.
+- **[SwiftDefaultApps (swda)](https://github.com/Lord-Kamina/SwiftDefaultApps)**: Command-line tool and (optional) preference pane for configuring the default application associations for basically any URI Scheme and/or filetype in macOS (ex. open .csv files with Excel instead of Numbers).
 
 
 ### Security
@@ -78,5 +87,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[Crypt](https://github.com/grahamgilbert/crypt)**: Crypt is an authorization plugin that will enforce FileVault 2, and then submit it to an instance of [Crypt Server](https://github.com/grahamgilbert/crypt-server).
 - **[Jamf Protect](https://www.jamf.com/products/jamf-protect/)**: Jamf product that utilizes the Mac's built-in security tools, namely Apple's new Endpoint Security framework for analyzing macOS system events on device to streamline security insights.
 - **[jss-filevault-reissue](https://github.com/homebysix/jss-filevault-reissue)**: A framework for re-escrowing missing or invalid FileVault keys with Jamf Pro.
+- **[OSXCollector](https://github.com/Yelp/osxcollector)**: A forensic evidence collection & analysis toolkit for macOS, developed by Yelp.
 - **[Privileges](https://github.com/SAP/macOS-enterprise-privileges)**: macOS app developed by SAP for allowing standard user accounts to obtain administrator rights for a set period of time. Manageable via configuration profile.
 - **[Santa](https://github.com/google/santa)**: A binary whitelisting/blacklisting system for macOS. Can block based on file hash, signing certificate, and/or path. Can also be managed via configuration profile or central [sync server](https://github.com/google/santa#sync-servers).
+- **[U. of Utah Marriott Library Firmware Password Manager](https://github.com/univ-of-utah-marriott-library-apple/firmware_password_manager)**: Python script to automate the management of firmware / EFI passwords.
