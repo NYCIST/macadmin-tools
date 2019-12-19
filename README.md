@@ -60,7 +60,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 
 - **[jamJAR](https://github.com/dataJAR/jamJAR)**: jamJAR is the glue that takes the best about [munki](https://github.com/munki/munki) in terms of software deployment and allows you to use it with Jamf. You must have both a Jamf and a [munki](https://github.com/munki/munki) to use.
   - jamJAR is a solution that applies out of the box thinking & lean methodologies to macOS "patch management". This holistic approach synergises Jamf, [autopkg](https://github.com/autopkg/autopkg) & [munki](https://github.com/munki/munki) into an aggregated convergence that cherry-picks functionality from each products core competency to create an innovative, scalable & modular update framework.
-- **[munki](https://github.com/munki/munki)**: 
+- **[munki](https://github.com/munki/munki)**: An open-source project with a set of tools that when used together with a web server, can be used to manage software installs and removals for macOS.
 - **[MunkiAdmin](https://github.com/hjuutilainen/munkiadmin)**: MunkiAdmin is a macOS app for managing [munki](https://github.com/munki/munki) repositories via a GUI.
 - **[PrinterGenerator](https://github.com/nmcspadden/PrinterGenerator)**: Script for generating specific 'nopkg' pkginfo files for printer configurations.
 
