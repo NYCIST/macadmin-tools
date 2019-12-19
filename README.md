@@ -47,7 +47,8 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[reposado](https://github.com/wdas/reposado)**: Reposado is a set of tools written in Python that replicate the key functionality of Mac OS X Server's Software Update Service, allowing you to host Apple Software Updates on the hardware and OS of your choice.
   - Reposado & margarita in Docker: [sphen/reposado](https://hub.docker.com/r/sphen/reposado)
 - **softwareupdate**: Built-in macOS command-line tool for managing software updates. Utilized by tools like [munki](https://github.com/munki/munki/) and Jamf.
-- **[SUS Inspector](https://github.com/hjuutilainen/sus-inspector)**: Short for **S**oftware **U**pdate **S**ervice Inspector, a macOS utility app for viewing detailed information about Apple's Software Update Service. It sets up a local [reposado](https://github.com/wdas/reposado) installation to replicate catalogs and then parses them for viewing. Can be used in combination with [MunkiAdmin](https://github.com/hjuutilainen/munkiadmin) to create files for [munki](https://github.com/munki/munki) to handle these installations. 
+- **[Suspicious Package](https://www.mothersruin.com/software/SuspiciousPackage/)**: macOS app for inspecting the contents of PKG installers. See if it's signed and by whom, the files that are installed, versions and other metadata, as well as the scripts it may run. You can also export individual items from a PKG to your Mac for closer inspection.
+- **[SUS Inspector](https://github.com/hjuutilainen/sus-inspector)**: Short for **S**oftware **U**pdate **S**ervice Inspector, a macOS utility app for viewing detailed information about Apple's Software Update Service. It sets up a local [reposado](https://github.com/wdas/reposado) installation to replicate catalogs and then parses them for viewing. Can be used in combination with [MunkiAdmin](https://github.com/hjuutilainen/munkiadmin) to create files for [munki](https://github.com/munki/munki) to handle these installations.
 
 ### Jamf
 
@@ -66,6 +67,9 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 ### Scripts & Other Tools
 
 - **[AirServer](https://www.airserver.com/)**: macOS app for turning a Mac into a screen mirroring receiver similar to an Apple TV. Goes further in that it supports both AirPlay and Chromecast, as well as multiple simultaneous device mirroring.
+- **[Atom](https://atom.io/)**: A free, hackable text editor with many installable packages.
+- **[BBEdit](https://www.barebones.com/products/bbedit/index.html)**: Another text editor. Can acquire a free EDU license for your school to avoid the 30-day pay timer.
+- **[defaultbrowser](https://github.com/kerma/defaultbrowser)**: Command-line tool for setting the default browser. Similar to [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps), but more limited.
 - **[DetectX Swift](https://sqwarq.com/detectx/)**: A lightweight macOS app for completing on-demand search and troubleshooting tool. that can identify malware, adware, keyloggers, potentially unwanted apps and potentially destabilising apps on a Mac. *VERY* inexpensive [management license](https://sites.fastspring.com/sqwarq/product/detectxswiftmanagement), and can be triggered remotely to complete full system scans.
 - **[Docker](https://www.docker.com/)**: Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code ([https://opensource.com/resources/what-docker](https://opensource.com/resources/what-docker)). Great for testing.
   - [podman](https://podman.io/): An alternative to Docker.
@@ -79,7 +83,9 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
   - Reportedly does not work with macOS Catalina ...
 - **[Outlook-Exchange-Setup](https://github.com/talkingmoose/Outlook-Exchange-Setup-5)**: Script that provides your volume-licensed Outlook for Mac users with automatic setups of their Exchange accounts. It works especially well if the Mac is bound to Active Directory.
 - **[outset](https://github.com/chilcote/outset)**: Automatically process packages, profiles, and scripts during boot, login, or on demand as the logging-in user or with administrator privileges.
-- **[SwiftDefaultApps (swda)](https://github.com/Lord-Kamina/SwiftDefaultApps)**: Command-line tool and (optional) preference pane for configuring the default application associations for basically any URI Scheme and/or filetype in macOS (ex. open .csv files with Excel instead of Numbers).
+- **[SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)**: Command-line tool and (optional) preference pane for configuring the default application associations for basically any URI Scheme and/or filetype in macOS (ex. open .csv files with Excel instead of Numbers).
+- **[tccdbRead.py](https://github.com/carlashley/tccprofile/blob/master/tccdbRead.py)**: Python script for reading system and user-level TCC database to determine what Privacy Preferences Policy Control (PPPC) permissions have been manually allowed.
+- **[VSCodium](https://github.com/VSCodium/vscodium)**: Open-source version of Microsoft's VSCode without their branding, telemetry, and licensing.
 
 
 ### Security
@@ -87,6 +93,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[Crypt](https://github.com/grahamgilbert/crypt)**: Crypt is an authorization plugin that will enforce FileVault 2, and then submit it to an instance of [Crypt Server](https://github.com/grahamgilbert/crypt-server).
 - **[Jamf Protect](https://www.jamf.com/products/jamf-protect/)**: Jamf product that utilizes the Mac's built-in security tools, namely Apple's new Endpoint Security framework for analyzing macOS system events on device to streamline security insights.
 - **[jss-filevault-reissue](https://github.com/homebysix/jss-filevault-reissue)**: A framework for re-escrowing missing or invalid FileVault keys with Jamf Pro.
+- **[KeePassXC](https://keepassxc.org/)**: An open-source, free, cross-platform password manager.
 - **[OSXCollector](https://github.com/Yelp/osxcollector)**: A forensic evidence collection & analysis toolkit for macOS, developed by Yelp.
 - **[Privileges](https://github.com/SAP/macOS-enterprise-privileges)**: macOS app developed by SAP for allowing standard user accounts to obtain administrator rights for a set period of time. Manageable via configuration profile.
 - **[Santa](https://github.com/google/santa)**: A binary whitelisting/blacklisting system for macOS. Can block based on file hash, signing certificate, and/or path. Can also be managed via configuration profile or central [sync server](https://github.com/google/santa#sync-servers).
