@@ -1,6 +1,6 @@
 # NYCIST Mac Admin Tools
 
-This repository is to serve as a resource for those who have Macs in their school to share the apps, scripts, and other to tools used to manage them.
+This repository is to serve as a resource for those who have Macs in their school to share the apps, scripts, and other tools used to manage them.
 
 Some are pulled directly from [https://github.com/timsutton/python-macadmin-tools](https://github.com/timsutton/python-macadmin-tools).
 
