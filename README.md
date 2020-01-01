@@ -64,7 +64,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[MunkiAdmin](https://github.com/hjuutilainen/munkiadmin)**: MunkiAdmin is a macOS app for managing [munki](https://github.com/munki/munki) repositories via a GUI.
 - **[PrinterGenerator](https://github.com/nmcspadden/PrinterGenerator)**: Script for generating specific 'nopkg' pkginfo files for printer configurations.
 
-### Scripts & Other Tools
+## Scripts & Other Tools
 
 - **[AirServer](https://www.airserver.com/)**: macOS app for turning a Mac into a screen mirroring receiver similar to an Apple TV. Goes further in that it supports both AirPlay and Chromecast, as well as multiple simultaneous device mirroring.
 - **[Atom](https://atom.io/)**: A free, hackable text editor with many installable packages.
@@ -88,12 +88,13 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[VSCodium](https://github.com/VSCodium/vscodium)**: Open-source version of Microsoft's VSCode without their branding, telemetry, and licensing.
 
 
-### Security
+## Security
 
 - **[Crypt](https://github.com/grahamgilbert/crypt)**: Crypt is an authorization plugin that will enforce FileVault 2, and then submit it to an instance of [Crypt Server](https://github.com/grahamgilbert/crypt-server).
 - **[Jamf Protect](https://www.jamf.com/products/jamf-protect/)**: Jamf product that utilizes the Mac's built-in security tools, namely Apple's new Endpoint Security framework for analyzing macOS system events on device to streamline security insights.
 - **[jss-filevault-reissue](https://github.com/homebysix/jss-filevault-reissue)**: A framework for re-escrowing missing or invalid FileVault keys with Jamf Pro.
 - **[KeePassXC](https://keepassxc.org/)**: An open-source, free, cross-platform password manager.
+- **[LAPSforMac](https://github.com/NU-ITS/LAPSforMac)**: An open-source shell script to complement Microsoft LAPS. Securely manages and rotates the password of a local admin account and stores this information within a Jamf Pro extension attribute.
 - **[OSXCollector](https://github.com/Yelp/osxcollector)**: A forensic evidence collection & analysis toolkit for macOS, developed by Yelp.
 - **[Privileges](https://github.com/SAP/macOS-enterprise-privileges)**: macOS app developed by SAP for allowing standard user accounts to obtain administrator rights for a set period of time. Manageable via configuration profile.
 - **[Santa](https://github.com/google/santa)**: A binary whitelisting/blacklisting system for macOS. Can block based on file hash, signing certificate, and/or path. Can also be managed via configuration profile or central [sync server](https://github.com/google/santa#sync-servers).
