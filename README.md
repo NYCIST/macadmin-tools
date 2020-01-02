@@ -23,7 +23,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 
 - **[Extinguish](https://github.com/arubdesu/Extinguish)**: Generates configuration profiles to turn off individual Sparkle-based auto updater apps by default.
 - **[iMazing Profile Editor](https://imazing.com/profile-editor)**: macOS app for building and editing custom configuration profiles, developed by DigiDNA. Utilizes the same [open-source framework](https://github.com/ProfileCreator/ProfileManifests) as ProfileCreator and is under active development.
-- **[ProfileCreator](https://github.com/ProfileCreator/ProfileCreator)**: macOS app for building and editing custom configuration profiles for managing preferences. [Extensive wiki](https://github.com/ProfileCreator/ProfileCreator/wiki), supports many populart third-party preferences, and has an [open-source framework](https://github.com/ProfileCreator/ProfileManifests) which is actively contributed to with new and updated profile payloads and preferences.
+- **[ProfileCreator](https://github.com/ProfileCreator/ProfileCreator)**: macOS app for building and editing custom configuration profiles for managing preferences. [Extensive wiki](https://github.com/ProfileCreator/ProfileCreator/wiki), supports many popular third-party preferences, and has an [open-source framework](https://github.com/ProfileCreator/ProfileManifests) which is actively contributed to with new and updated profile payloads and preferences.
 
 ## Remote Management & Reporting
 
@@ -41,7 +41,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[autopkg](https://github.com/autopkg/autopkg)**: AutoPkg is an automation framework for macOS software packaging and distribution, oriented towards the tasks one would normally perform manually to prepare third-party software for mass deployment to managed clients.
 - **[chrome-enable-autoupdates.py](https://github.com/hjuutilainen/adminscripts/blob/master/chrome-enable-autoupdates.py)**: Python script for enabling automatic Chrome browser updates for all users on a Mac.
 - **[JSSImporter](https://github.com/sheagcraig/JSSImporter)**: A framework for connecting software downloaded via autopkg to a Jamf Pro server. Will import the software to a Jamf distribution point, as well as create an applicable policy and scope for deployment.
-- **[margarita](https://github.com/jessepeterson/margarita)**: Margarita is a web interface to reposado the Apple Software Update replication and catalog management tool. While the reposado command line administration tools work great for folks who are comfortable in that environment something a little more accesible might be desired.
+- **[margarita](https://github.com/jessepeterson/margarita)**: Margarita is a web interface to reposado the Apple Software Update replication and catalog management tool. While the reposado command line administration tools work great for folks who are comfortable in that environment something a little more accessible might be desired.
 - **[munki-pkg](https://github.com/munki/munki-pkg)**: Tool for building packages in a consistent, repeatable manner from source files and scripts in a project directory.
 - **[Recipe Robot](https://github.com/homebysix/recipe-robot)**: macOS app for automatically creating recipes for [autopkg](https://github.com/autopkg/autopkg).
 - **[reposado](https://github.com/wdas/reposado)**: Reposado is a set of tools written in Python that replicate the key functionality of Mac OS X Server's Software Update Service, allowing you to host Apple Software Updates on the hardware and OS of your choice.
@@ -54,7 +54,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 
 - **[cachecheck](https://github.com/krypted/cachecheck)**: Extension attribute to check which Caching Server a Mac is using.
 - **[jamf2snipe](https://github.com/ParadoxGuitarist/jamf2snipe)**: Python script for syncing Macs from a Jamf Pro instance to a [Snipe-IT](https://snipeitapp.com/) asset management instance.
-- **[Spruce](https://github.com/jssimporter/Spruce)**: Python script for identifing unused packages, scripts, and policies on a Jamf Pro Server and optionally remove them. Can also run a number of device reports as well.
+- **[Spruce](https://github.com/jssimporter/Spruce)**: Python script for identifying unused packages, scripts, and policies on a Jamf Pro Server and optionally remove them. Can also run a number of device reports as well.
 
 ### Munki
 
