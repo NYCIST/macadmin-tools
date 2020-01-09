@@ -24,6 +24,8 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[Extinguish](https://github.com/arubdesu/Extinguish)**: Generates configuration profiles to turn off individual Sparkle-based auto updater apps by default.
 - **[iMazing Profile Editor](https://imazing.com/profile-editor)**: macOS app for building and editing custom configuration profiles, developed by DigiDNA. Utilizes the same [open-source framework](https://github.com/ProfileCreator/ProfileManifests) as ProfileCreator and is under active development.
 - **[ProfileCreator](https://github.com/ProfileCreator/ProfileCreator)**: macOS app for building and editing custom configuration profiles for managing preferences. [Extensive wiki](https://github.com/ProfileCreator/ProfileCreator/wiki), supports many popular third-party preferences, and has an [open-source framework](https://github.com/ProfileCreator/ProfileManifests) which is actively contributed to with new and updated profile payloads and preferences.
+- **[PPPC Utility](https://github.com/jamf/pppc-utility)**: A macOS GUI app for more easily creating PPPC payloads in Jamf. Once created in the app, can be uploaded directly into a Jamf Pro or Jamf Cloud instance.
+- **[ProfileCreator](https://github.com/ProfileCreator/ProfileCreator)**: macOS app for building and editing custom configuration profiles for managing preferences. [Extensive wiki](https://github.com/ProfileCreator/ProfileCreator/wiki), supports many populart third-party preferences, and has an [open-source framework](https://github.com/ProfileCreator/ProfileManifests) which is actively contributed to with new and updated profile payloads and preferences.
 
 ## Remote Management & Reporting
 
@@ -85,6 +87,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[Outlook-Exchange-Setup](https://github.com/talkingmoose/Outlook-Exchange-Setup-5)**: Script that provides your volume-licensed Outlook for Mac users with automatic setups of their Exchange accounts. It works especially well if the Mac is bound to Active Directory.
 - **[outset](https://github.com/chilcote/outset)**: Automatically process packages, profiles, and scripts during boot, login, or on demand as the logging-in user or with administrator privileges.
 - **[SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)**: Command-line tool and (optional) preference pane for configuring the default application associations for basically any URI Scheme and/or filetype in macOS (ex. open .csv files with Excel instead of Numbers).
+- **[Taccy](https://eclecticlight.co/taccy-signet-precize-alifix-utiutility-alisma/)**: A macOS app for reading the TCC / PPPC requirements of other macOS apps. Avoids needing to determine by hand what permissions (if any) are needed by apps you deploy.
 - **[tccdbRead.py](https://github.com/carlashley/tccprofile/blob/master/tccdbRead.py)**: Python script for reading system and user-level TCC database to determine what Privacy Preferences Policy Control (PPPC) permissions have been manually allowed.
 - **[VSCodium](https://github.com/VSCodium/vscodium)**: Open-source version of Microsoft's VSCode without their branding, telemetry, and licensing.
 
