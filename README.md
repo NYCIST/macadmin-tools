@@ -17,7 +17,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[installinstallmacos.py](https://github.com/munki/macadmin-scripts#installinstallmacospy)**: A Python script that can create disk images containing macOS installer applications available via Apple's softwareupdate catalogs. 
   - Built in, macOS Catalina can accomplish something similar: `softwareupdate --fetch-full-installer --full-installer-version 10.1X.X`
 - **[Mac Deploy Stick (MDS)](https://twocanoes.com/products/mac/mac-deploy-stick/)**: Free, open-source macOS app to create a USB flash drive for recovering / mass deploying Macs.
-  - MDS also offers a $50 'Automaton' for automating the commands to start up in the recovery partition and kick off workflows, making it even easier to setup and deploy a large number of Macs.
+  - MDS also offers a [$50 MDS Automaton](https://store.twocanoes.com/collections/frontpage/products/mac-deploy-stick-bundle) for automating the commands to start up in the recovery partition and kick off workflows, making it even easier to setup and deploy a large number of Macs.
 - **[System Image Utility](https://support.apple.com/guide/system-image-utility/welcome/mac)**: Built-in macOS app (`/System/Library/CoreServices/Applications/System Image Utility.app`) which can convert a macOS install application into a NetInstall / NetBoot image for network installations.
 - **[vfuse](https://github.com/chilcote/vfuse)**: Script that takes a never-booted DMG and converts it into a VMware Fusion VM. Very useful for testing DEP enrollment and other tasks 
 
