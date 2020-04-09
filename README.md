@@ -40,12 +40,15 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 ## Software Management, Packaging, Deployment, & Updates
 
 - **[appleloops](https://github.com/carlashley/appleLoops)**: Python script for downloading and deploying essential and optional audio content for GarageBand, Logic Pro X, and MainStage 3.
-- **[Apple Remote Desktop](https://apps.apple.com/us/app/apple-remote-desktop/id409907375?mt=12)**: Paid macOS app for remotely viewing and controlling other Macs. Can also remotely install PKGs and run scripts.
+- **[Apple Remote Desktop](https://apps.apple.com/us/app/apple-remote-desktop/id409907375?mt=12) ($)**: Paid macOS app for remotely viewing and controlling other Macs. Can also remotely install PKGs and run scripts.
 - **[autopkg](https://github.com/autopkg/autopkg)**: AutoPkg is an automation framework for macOS software packaging and distribution, oriented towards the tasks one would normally perform manually to prepare third-party software for mass deployment to managed clients.
 - **[chrome-enable-autoupdates.py](https://github.com/hjuutilainen/adminscripts/blob/master/chrome-enable-autoupdates.py)**: Python script for enabling automatic Chrome browser updates for all users on a Mac.
+- **[iMazing](https://imazing.com/) ($)**: Trusted software to transfer and save your music, messages, files and data. Safely back up any iPhone, iPad or iPod touch. Powerful and user-friendly, iMazing is simply the best iOS device manager for Mac and PC. Get full control over your iOS device. Get iMazing. Integrates with iMazing Profile Editor.
+  - **[iMazing Configurator](https://imazing.com/configurator) ($)**: Enterprise component of iMazing that builds on the features of Apple Configurator 2 to help sys admins configure and provision fleets of Apple mobile devices, including iPhone, iPad, iPod touch and Apple TV.
 - **[JSSImporter](https://github.com/sheagcraig/JSSImporter)**: A framework for connecting software downloaded via autopkg to a Jamf Pro server. Will import the software to a Jamf distribution point, as well as create an applicable policy and scope for deployment.
 - **[margarita](https://github.com/jessepeterson/margarita)**: Margarita is a web interface to reposado the Apple Software Update replication and catalog management tool. While the reposado command line administration tools work great for folks who are comfortable in that environment something a little more accessible might be desired.
 - **[munki-pkg](https://github.com/munki/munki-pkg)**: Tool for building packages in a consistent, repeatable manner from source files and scripts in a project directory.
+- **[nudge](https://github.com/macadmins/nudge)**: A tool to help users with pre-existing devices upgrade their OS version. Merely *nudges* users to install Apple software updates via an approved method (System Preferences, Munki, Jamf, etc.).
 - **[Recipe Robot](https://github.com/homebysix/recipe-robot)**: macOS app for automatically creating recipes for [autopkg](https://github.com/autopkg/autopkg).
 - **[reposado](https://github.com/wdas/reposado)**: Reposado is a set of tools written in Python that replicate the key functionality of Mac OS X Server's Software Update Service, allowing you to host Apple Software Updates on the hardware and OS of your choice.
   - Reposado & margarita in Docker: [sphen/reposado](https://hub.docker.com/r/sphen/reposado)
@@ -80,6 +83,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
   - [podman](https://podman.io/): An alternative to Docker.
 - **[dockutil](https://github.com/kcrawford/dockutil)**: Tool for programmatically configuring Docks. Can be used in conjunction with other tools, like [outset](https://github.com/chilcote/outset).
 - **[docklib](https://github.com/homebysix/docklib)**: Another tool for programmatically configuring Docks. Can be used in conjunction with other tools, like [outset](https://github.com/chilcote/outset).
+- **[Hancock](https://github.com/JeremyAgost/Hancock)**: Hancock is a GUI tool for signing packages and mobileconfig files. First it looks through your keychain for all certificates that can be used to sign, then signs the files using the selected certificate.
 - **[Jamf Connect](https://www.jamf.com/products/jamf-connect/)**: Additional paid Jamf product born from purchasing the company behind [NoMAD](https://nomad.menu/products/#nomad) and [NoMAD Login](https://nomad.menu/products/#login). Allows the use of cloud-identity credentials at the macOS loginwindow.
 - **[munki-rebrand](https://github.com/ox-it/munki-rebrand)**: Scripts to rebrand munki's Managed Software Update center.
 - **[mysides](https://github.com/mosen/mysides)**: Command-line tool for programmatically configuring the Finder sidebar.
@@ -89,6 +93,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
   - Reportedly does not work with macOS Catalina ...
 - **[Outlook-Exchange-Setup](https://github.com/talkingmoose/Outlook-Exchange-Setup-5)**: Script that provides your volume-licensed Outlook for Mac users with automatic setups of their Exchange accounts. It works especially well if the Mac is bound to Active Directory.
 - **[outset](https://github.com/chilcote/outset)**: Automatically process packages, profiles, and scripts during boot, login, or on demand as the logging-in user or with administrator privileges.
+- **[Push Diagnostics](https://twocanoes.com/products/mac/push-diagnostics/)**: A macOS app that will quickly verify that the appropriate hosts can be reached on their respective ports from any network you are on.
 - **[SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)**: Command-line tool and (optional) preference pane for configuring the default application associations for basically any URI Scheme and/or filetype in macOS (ex. open .csv files with Excel instead of Numbers).
 - **[Taccy](https://eclecticlight.co/taccy-signet-precize-alifix-utiutility-alisma/)**: A macOS app for reading the TCC / PPPC requirements of other macOS apps. Avoids needing to determine by hand what permissions (if any) are needed by apps you deploy.
 - **[tccdbRead.py](https://github.com/carlashley/tccprofile/blob/master/tccdbRead.py)**: Python script for reading system and user-level TCC database to determine what Privacy Preferences Policy Control (PPPC) permissions have been manually allowed.
