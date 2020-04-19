@@ -64,6 +64,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 
 - **[cachecheck](https://github.com/krypted/cachecheck)**: Extension attribute to check which Caching Server a Mac is using.
 - **[jamf2snipe](https://github.com/ParadoxGuitarist/jamf2snipe)**: Python script for syncing Macs from a Jamf Pro instance to a [Snipe-IT](https://snipeitapp.com/) asset management instance.
+- **[Jamf Environment Test (JET)](https://github.com/jamf/Jamf-Environment-Test)**: macOS app utility for testing an environment for success with Apple Devices. This tool is designed to be used by an Apple admin in conjuction with a networking admin on a network that the Apple device will be on. Reports on current device proxy settings, and its connectivity to Apple URLs [listed here](https://support.apple.com/en-us/HT210060). Bash script available for validation. [Download here](https://github.com/jamf/Jamf-Environment-Test/releases).
 - **[Spruce](https://github.com/jssimporter/Spruce)**: Python script for identifying unused packages, scripts, and policies on a Jamf Pro Server and optionally remove them. Can also run a number of device reports as well.
 
 ### Munki
