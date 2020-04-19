@@ -81,6 +81,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[AirServer](https://www.airserver.com/)**: macOS app for turning a Mac into a screen mirroring receiver similar to an Apple TV. Goes further in that it supports both AirPlay and Chromecast, as well as multiple simultaneous device mirroring.
 - **[Atom](https://atom.io/)**: A free, hackable text editor with many installable packages.
 - **[BBEdit](https://www.barebones.com/products/bbedit/index.html)**: Another text editor. Can acquire a free EDU license for your school to avoid the 30-day pay timer.
+- **[Consolation](https://eclecticlight.co/consolation-t2m2-and-log-utilities/)**: macOS app, provides an accessible but powerful way to browse, search, and analyse entries in the new macOS log system which have already been captured that is not supported by Apple's Console app. If you want to check that Time Machine backups have been made on time and without error, or get to the bottom of startup, extension, or many other problems, Consolation is the only practical tool to use.
 - **[defaultbrowser](https://github.com/kerma/defaultbrowser)**: Command-line tool for setting the default browser. Similar to [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps), but more limited.
 - **[desktoppr](https://github.com/scriptingosx/desktoppr)**: Command-line tool for setting the Desktop background.
 - **[DetectX Swift](https://sqwarq.com/detectx/)**: A lightweight macOS app for completing on-demand search and troubleshooting tool. that can identify malware, adware, keyloggers, potentially unwanted apps and potentially destabilising apps on a Mac. *VERY* inexpensive [management license](https://sites.fastspring.com/sqwarq/product/detectxswiftmanagement), and can be triggered remotely to complete full system scans.
@@ -103,6 +104,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)**: Command-line tool and (optional) preference pane for configuring the default application associations for basically any URI Scheme and/or filetype in macOS (ex. open .csv files with Excel instead of Numbers).
 - **[Taccy](https://eclecticlight.co/taccy-signet-precize-alifix-utiutility-alisma/)**: A macOS app for reading the TCC / PPPC requirements of other macOS apps. Avoids needing to determine by hand what permissions (if any) are needed by apps you deploy.
 - **[tccdbRead.py](https://github.com/carlashley/tccprofile/blob/master/tccdbRead.py)**: Python script for reading system and user-level TCC database to determine what Privacy Preferences Policy Control (PPPC) permissions have been manually allowed.
+- **[Ulbow](https://eclecticlight.co/consolation-t2m2-and-log-utilities/)**: macOS app,  simplest browser for the macOS Unified Log, without losing any of the power of [Consolation](https://eclecticlight.co/consolation-t2m2-and-log-utilities/). Ideal for the casual user as well as log addicts.
 - **[VSCodium](https://github.com/VSCodium/vscodium)**: Open-source version of Microsoft's VSCode without their branding, telemetry, and licensing.
 
 
