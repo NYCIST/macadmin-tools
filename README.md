@@ -33,7 +33,9 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[Mac Deploy Stick (MDS)](https://twocanoes.com/products/mac/mac-deploy-stick/)**: Free, open-source macOS app to create a USB flash drive for recovering / mass deploying Macs.
   - MDS also offers a [$50 MDS Automaton](https://store.twocanoes.com/collections/frontpage/products/mac-deploy-stick-bundle) for automating the commands to start up in the recovery partition and kick off workflows, making it even easier to setup and deploy a large number of Macs.
 - **[System Image Utility](https://support.apple.com/guide/system-image-utility/welcome/mac)**: Built-in macOS app (`/System/Library/CoreServices/Applications/System Image Utility.app`) which can convert a macOS install application into a NetInstall / NetBoot image for network installations.
-- **[vfuse](https://github.com/chilcote/vfuse)**: Script that takes a never-booted DMG and converts it into a VMware Fusion VM. Very useful for testing DEP enrollment and other tasks 
+- **[vfuse](https://github.com/chilcote/vfuse)**: Script that takes a never-booted DMG and converts it into a VMware Fusion VM. Very useful for testing DEP enrollment and other tasks.
+
+[Back to top](#index)
 
 ## Configuration Profiles
 
@@ -41,6 +43,8 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[iMazing Profile Editor](https://imazing.com/profile-editor)**: macOS app for building and editing custom configuration profiles, developed by DigiDNA. Utilizes the same [open-source framework](https://github.com/ProfileCreator/ProfileManifests) as [ProfileCreator](https://github.com/ProfileCreator/ProfileCreator) and is under active development.
 - **[PPPC Utility](https://github.com/jamf/pppc-utility)**: A macOS GUI app for more easily creating PPPC payloads in Jamf. Once created in the app, can be uploaded directly into a Jamf Pro or Jamf Cloud instance.
 - **[ProfileCreator](https://github.com/ProfileCreator/ProfileCreator)**: macOS app for building and editing custom configuration profiles for managing preferences. [Extensive wiki](https://github.com/ProfileCreator/ProfileCreator/wiki), supports many populart third-party preferences, and has an [open-source framework](https://github.com/ProfileCreator/ProfileManifests) which is actively contributed to with new and updated profile payloads and preferences.
+
+[Back to top](#index)
 
 ## Remote Management & Reporting
 
@@ -50,6 +54,8 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[MunkiReport](https://github.com/munkireport/munkireport-php)**: An open-source reporting client for [munki](https://github.com/munki/munki).
 - **[osquery](https://www.osquery.io/)**: Open-source tool that utilizes basic SQL commands to leverage a relational data-model to describe a device. Incredibly performant, a single SQL command can query the same information, whether the device is running Linux, Mac, or Windows. Originally developed by Facebook, control has transitioned to the [Linux Foundation](https://www.linuxfoundation.org/press-release/2019/06/the-linux-foundation-announces-intent-to-form-new-foundation-to-support-osquery-community/).
 - **[Sal](https://github.com/salopensource/sal)**: A Django-based reporting app for [munki](https://github.com/munki/munki), integrates with Facter facts on clients.
+
+[Back to top](#index)
 
 ## Software Management, Packaging, Deployment, & Updates
 
@@ -73,6 +79,8 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[Suspicious Package](https://www.mothersruin.com/software/SuspiciousPackage/)**: macOS app for inspecting the contents of PKG installers. See if it's signed and by whom, the files that are installed, versions and other metadata, as well as the scripts it may run. You can also export individual items from a PKG to your Mac for closer inspection.
 - **[SUS Inspector](https://github.com/hjuutilainen/sus-inspector)**: Short for **S**oftware **U**pdate **S**ervice Inspector, a macOS utility app for viewing detailed information about Apple's Software Update Service. It sets up a local [reposado](https://github.com/wdas/reposado) installation to replicate catalogs and then parses them for viewing. Can be used in combination with [MunkiAdmin](https://github.com/hjuutilainen/munkiadmin) to create files for [munki](https://github.com/munki/munki) to handle these installations.
 
+[Back to top](#index)
+
 ### Munki
 
 - **[jamJAR](https://github.com/dataJAR/jamJAR)**: jamJAR is the glue that takes the best about [munki](https://github.com/munki/munki) in terms of software deployment and allows you to use it with Jamf. You must have both a Jamf and a [munki](https://github.com/munki/munki) to use.
@@ -81,6 +89,8 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[munki-rebrand](https://github.com/ox-it/munki-rebrand)**: Scripts to rebrand munki's Managed Software Update center.
 - **[MunkiAdmin](https://github.com/hjuutilainen/munkiadmin)**: MunkiAdmin is a macOS app for managing [munki](https://github.com/munki/munki) repositories via a GUI.
 - **[PrinterGenerator](https://github.com/nmcspadden/PrinterGenerator)**: Script for generating specific 'nopkg' pkginfo files for printer configurations.
+
+[Back to top](#index)
 
 ## Jamf-Specific Tools
 
@@ -106,12 +116,16 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[Spruce](https://github.com/jssimporter/Spruce)**: Python script for identifying unused packages, scripts, and policies on a Jamf Pro Server and optionally remove them. Can also run a number of device reports as well.
 - **[The MUT](https://github.com/mike-levenick/mut)**: The unofficial, all-in-one mass update tool designed to be the perfect companion to Jamf Admins. A native macOS app which allows Jamf Admins to make mass updates to attributes (such as username, asset tag, or extension attribute) of their devices and users in Jamf.
 
+[Back to top](#index)
+
 ### Jamf Enrollment / Provisioning
 
 - **[DEPNotify](https://marketplace.jamf.com/details/depnotify/)**: DEPNotify runs as a native macOS window and can be easily controlled via a text file. If asked it will automatically show all policies and installations done by Jamf as they happen.
 - **[JAMF Enrollment Kickstart](https://github.com/Yohan460/JAMF-Enrollment-Kickstart)**: A better enrollment kickoff for JAMF machines. Jamf's native `enrollmentContinue` trigger is generally unreliable, as it can be interrupted by a number of different things. This tool gives you a reliable mechanism for carrying out the things you want to have happen immediately following enrollment into your Jamf Pro Server.
 - **[msupdatehelper](https://github.com/pbowden-msft/msupdatehelper)**: Command-line tool for updating Microsoft Office apps through Jamf. Training video on how to use this tool: [http://office4mac.com/courses/msupdate](http://office4mac.com/courses/msupdate)
 - **[SplashBuddy](https://github.com/Shufflepuck/SplashBuddy)**: Onboarding splash screen for Jamf Pro to help improve the DEP provisioning process on Macs by providing an elegant and secure process for users.
+
+[Back to top](#index)
 
 ## Scripts & Other Tools
 
@@ -144,6 +158,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[VSCodium](https://github.com/VSCodium/vscodium)**: Open-source version of Microsoft's VSCode without their branding, telemetry, and licensing.
 - **[Zentral](https://github.com/zentralopensource/zentral)**: An open-source hub for gathering, processing, and monitoring system events and linking them to an inventory. Uses Elastic Search and supports extensions for many popular agents (munki, osquery, Santa, etc.) and inventory systems (Filewave, Jamf, etc.).
 
+[Back to top](#index)
 
 ## Security
 
@@ -156,3 +171,5 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[Privileges](https://github.com/SAP/macOS-enterprise-privileges)**: macOS app developed by SAP for allowing standard user accounts to obtain administrator rights for a set period of time. Manageable via configuration profile.
 - **[Santa](https://github.com/google/santa)**: A binary whitelisting/blacklisting system for macOS. Can block based on file hash, signing certificate, and/or path. Can also be managed via configuration profile or central [sync server](https://github.com/google/santa#sync-servers).
 - **[U. of Utah Marriott Library Firmware Password Manager](https://github.com/univ-of-utah-marriott-library-apple/firmware_password_manager)**: Python script to automate the management of firmware / EFI passwords.
+
+[Back to top](#index)
