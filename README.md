@@ -12,7 +12,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - [Software Management, Packaging, Deployment, & Updates](#software-management-packaging-deployment--updates)
   - [Munki](#munki)
 - [Jamf-Specific Tools](#jamf-specific-tools)
-  - [Jamf Enrollment / Provisioning](#jamf-enrollment-provisioning)
+  - [Jamf Enrollment / Provisioning](#jamf-enrollment--provisioning)
 - [Scripts & Other Tools](#scripts--other-tools)
 - [Security](#security)
 
