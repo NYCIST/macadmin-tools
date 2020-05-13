@@ -96,6 +96,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 ## Jamf-Specific Tools
 
 - **[cachecheck](https://github.com/krypted/cachecheck)**: Extension attribute to check which Caching Server a Mac is using.
+- **[CommunityPatch](https://github.com/brysontyrrell/CommunityPatch)**: CommunityPatch is a free, open-source, external patch source for Jamf Pro administrators to publish patch definitions they maintain for the broader Jamf community to subscribe to. Access CommunityPatch using an Apple ID, and then create and manage API tokens to interact with the service API.
 - **[git2jss](https://github.com/gkluoe/git2jss)**: Python script to bring your Jamf Pro server scripts and extension attributes into version/change control. When changes are committed, can sync the changed scripts and EAs back into Jamf.
 - **[Jackalope Slack](https://marketplace.jamf.com/details/jackalope-slack/)**: A Slack app to receive notifications on events from your Jamf Pro Server to any number of Slack channels on your Slack Team.
 - **[jamf2snipe](https://github.com/ParadoxGuitarist/jamf2snipe)**: Python script for syncing Macs from a Jamf Pro instance to a [Snipe-IT](https://snipeitapp.com/) asset management instance.
