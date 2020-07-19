@@ -73,6 +73,7 @@ Some are pulled directly from [https://github.com/timsutton/python-macadmin-tool
 - **[margarita](https://github.com/jessepeterson/margarita)**: Margarita is a web interface to reposado the Apple Software Update replication and catalog management tool. While the reposado command line administration tools work great for folks who are comfortable in that environment something a little more accessible might be desired.
 - **[munki-pkg](https://github.com/munki/munki-pkg)**: Tool for building packages in a consistent, repeatable manner from source files and scripts in a project directory.
 - **[nudge](https://github.com/macadmins/nudge)**: A tool to help users with pre-existing devices upgrade their OS version. Merely *nudges* users to install Apple software updates via an approved method (System Preferences, Munki, Jamf, etc.).
+- **[RecipeBuilder](https://github.com/mikaellofgren/RecipeBuilder)**: macOS app (10.14+) for more easily writing [autopkg](https://github.com/autopkg/autopkg) recipes.
 - **[Recipe Robot](https://github.com/homebysix/recipe-robot)**: macOS app for automatically creating recipes for [autopkg](https://github.com/autopkg/autopkg).
 - **[reposado](https://github.com/wdas/reposado)**: Reposado is a set of tools written in Python that replicate the key functionality of Mac OS X Server's Software Update Service, allowing you to host Apple Software Updates on the hardware and OS of your choice.
   - Reposado & margarita in Docker: [sphen/reposado](https://hub.docker.com/r/sphen/reposado)
